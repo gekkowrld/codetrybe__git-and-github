@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="https://github.com/codetrybe.png" type="image/x-icon">
+  <title>Git and Github</title>
+  <style>
+    body{
+      font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+      color: #eaeaea;
+      font-size: 21px;
+      background-color: #000000;
+      background-position-x: 0%;
+      background-position-y: 0%;
+      background-repeat: repeat;
+      background-attachment: scroll;
+      background-size: auto;
+      background-origin: padding-box;
+      background-clip: border-box;
+    }
+    hr{
+      color: #b5e853;
+    }
+    code{
+      font-family: monospace;
+    }
+    h1, h2, h3, h4, h5, h6{
+        font-weight: normal;
+        font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+        color: #b5e853;
+        letter-spacing: -0.03em;
+        text-shadow: 0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1);
+        margin: 0 0 20px;
+    }
+    a, a:active, a:link, a:visited{
+      color: #63c0f5;
+      text-decoration: none;
+      text-shadow: 0 0 5px rgba(104,182,255,0.5);
+    }
+    li, ul, ol{
+      list-style-type: none;
+      list-style: none;
+    }
+    li::before{
+      content: '>>  ';
+      color: #b5e853;
+    }
+	ul:empty::after{
+		content: 'Nothing for now, check in later' ;
+	}
+  </style>
+</head>
+<body>
+  <h1>The following topics are discussed:</h1>
+  <ul id="fileList" data-link="https://github.com/codetrybe/"></ul>
+  <script>
+    const repoOwner = "codetrybe";
+    const repoName = "git-and-github";
+    const docsFolder = "docs";
+    const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${docsFolder}`;
+    const fileList = document.getElementById("fileList");
+
+    fetch(apiUrl)
+      .then(response => response.json())
+      .then(data => {
+        data.forEach(item => {
+          if (item.type === "file" && item.name.endsWith(".md")) {
+            const fileName = item.name.slice(0, -3);
+            const fileLink = `https://${repoOwner}.github.io/${repoName}/${fileName}`;
+            const li = document.createElement("li");
+            const a = document.createElement("a");
+            a.textContent = fileName;
+            a.href = fileLink;
+            li.appendChild(a);
+            fileList.appendChild(li);
+          }
+        });
+      })
+      .catch(error => console.error(error));
+  </script>
+</body>
+</html>

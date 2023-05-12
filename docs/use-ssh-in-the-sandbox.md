@@ -1,4 +1,4 @@
-# Use SSH in the sandbox
+# How to use SSH in the sandbox
 
 ## What is SSH
 

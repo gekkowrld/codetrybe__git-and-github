@@ -21,7 +21,7 @@ Now let's configure the most common settings that we will be using most of the t
 git config --global user.name "Your name"
 ```
 
->> We first start configure the name that will be used in our git operations. The name can be anything. But the you should choose either your name or a name that most people know. This can help your team know who performed an operation. You don't have to use the quotes if you are using one name, but if it is more than one then you have to use them. If my username is `Gekko Wrld` then I can do it like this.
+>> We first start configure the name that will be used in our git operations. The name can be anything. But you should choose either your name or a name that most people know. This can help your team know who performed an operation. You don't have to use the quotes if you are using one name, but if it is more than one then you have to use them. If my username is `Gekko Wrld` then I can do it like this.
 
 ```bash
 git config user.name "Gekko Wrld" # For more than one name
@@ -85,6 +85,8 @@ You can use this command
 ```bash
 git config --global default.branch gekkowrld
 ```
+
+>> This will set the default branch to be `gekkowrld`. You can set your favourite name. Have fun naming the branch name.
 
 Remember that this is only available from git version 2.28 that was introduced in July 2020. You can run `git --version` to see your version.
 

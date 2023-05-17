@@ -93,7 +93,7 @@ Then we push our commits to Github
 
 ```bash
 git push https://github.com/gekkowrld/test-ground.git # Make sure it is that you enter the complete url as I have done here.
-Substitute https://github.com/gekkowrld/test-ground.git with the url of your repo
+#Substitute https://github.com/gekkowrld/test-ground.git with the url of your repo
 ```
 
 Git will prompt you to enter the password which will be your token. Copy the token and paste it in. No visible sign will be shown when entering the password but just press `Enter`. Your changes will be pushed to Github safely.

@@ -134,7 +134,7 @@ For configuration, check out the [official installation guide](https://github.co
 
 To authenticate please refer to the [official article](https://cli.github.com/manual/gh_auth_login)
 
-Alternatively, you can run the script provided [here](https://github.com/gekkowrld/test-ground/blob/master/install-gh.sh) <https://github.com/gekkowrld/test-ground/blob/master/install-gh.sh>. Make sure that you have a token that has a minimum of this requirements:
+Alternatively, you can run the script provided at <https://gist.github.com/gekkowrld/c267b9e7480dece7d9192cde92c2f0d1>. Make sure that you have a token that has a minimum of this requirements:
 
 `The minimum required scopes are 'repo', 'read:org', 'admin:public_key'`
 

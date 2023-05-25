@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="https://github.com/codetrybe.png" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>404 Error</title>
 	<style>
 		body {
+			font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 			background-color: #000;
-			font-family: sans-serif;
 			font-size: 16px;
 			line-height: 1.5;
 			color: #333;
@@ -23,13 +24,23 @@
 			margin-bottom: 20px;
 		}
 
+		h1 a:hover{
+			color: #ead853;
+		}
+
 		p {
 			color: #fafaf5;
 			font-size: 20px;
 			margin-bottom: 30px;
 		}
 
+		::selection{
+			background-color: #fff;
+			color: #000;
+		}
+
 		a.home, a.home:active, a.home:link, a.home:visited{
+			cursor: pointer;
 			border-radius: 12px;
 			padding: 17px 28px;
 			font-size: 21px;
@@ -39,14 +50,17 @@
 			background-color: #333;
 			transition: background-color 0.2s ease-in-out;
     	}
-		a:hover {
+
+		a.home:hover {
 			background-color: #666;
 		}
 	</style>
 </head>
 <body>
 	<h1><a href="https://en.wikipedia.org/wiki/HTTP_404">404 Error</a></h1>
-	<p>The page you're looking for could not be found.</p>
-	<a href="/" class="home">Go back to home</a>
+	<br>
+	<p>Sorry the page you're looking for could not be found.</p>
+	<br>
+	<a href="https://codetrybe.github.io/git-and-github/" class="home">Go back to home</a>
 </body>
 </html>

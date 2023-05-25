@@ -6,7 +6,7 @@
 	<title>404 Error</title>
 	<style>
 		body {
-			background-color: #f8f8f8;
+			background-color: #000;
 			font-family: sans-serif;
 			font-size: 16px;
 			line-height: 1.5;
@@ -15,35 +15,38 @@
 			padding: 100px 0;
 		}
 
-		h1 {
+		h1 a{
+			cursor: help;
+			text-decoration: none;
+			color: #b5e853;
 			font-size: 48px;
 			margin-bottom: 20px;
 		}
 
 		p {
+			color: #fafaf5;
 			font-size: 20px;
 			margin-bottom: 30px;
 		}
 
-		a {
-			display: inline-block;
-			padding: 10px 20px;
+		a.home, a.home:active, a.home:link, a.home:visited{
+			border-radius: 12px;
+			padding: 17px 28px;
+			font-size: 21px;
+      		color: #63c0f5;
+      		text-decoration: none;
+      		text-shadow: 0 0 5px rgba(104,182,255,0.5);
 			background-color: #333;
-			color: #fff;
-			font-size: 20px;
-			border-radius: 5px;
-			text-decoration: none;
 			transition: background-color 0.2s ease-in-out;
-		}
-
+    	}
 		a:hover {
 			background-color: #666;
 		}
 	</style>
 </head>
 <body>
-	<h1>404 Error</h1>
+	<h1><a href="https://en.wikipedia.org/wiki/HTTP_404">404 Error</a></h1>
 	<p>The page you're looking for could not be found.</p>
-	<a href="/">Go back to home</a>
+	<a href="/" class="home">Go back to home</a>
 </body>
 </html>

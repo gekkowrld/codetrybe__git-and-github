@@ -16,6 +16,14 @@ I'll be using `test-ground` as the repository and `gekkowrld` as the username. B
 
 If you haven't configured Git yet, refer to this article: [How to configure git](https://codetrybe.github.io/git-and-github/how-to-configure-git)
 
+**Tip** If you want the folder that is to be created to have a different name from the one that it is named when cloning, you can give it another name by appending the name to the end of the git command. I'll show an example using HTTPS. But this method works for every method of cloning.
+
+I'll change the folder that we'll be created in my system from `test-ground` to `test`
+
+```bash
+git clone https://github.com/gekkowrld/test-ground.git test
+```
+
 ## Using HTTPS
 
 To provide an example, let's assume my Personal Access Token (PAT) is ghp_eLhVuAdHDFRAUKDnWlICmtl46G4I983NylLs. Remember to use your own PAT instead of the one I provided, as the one I'm using is not valid. I have modified it for security reasons.

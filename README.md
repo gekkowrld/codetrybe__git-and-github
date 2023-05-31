@@ -8,5 +8,5 @@ For contribution see [`CONTRIBUTING`](https://github.com/codetrybe/git-and-githu
 
 Please check out the [`CODE OF CONDUCT`](https://github.com/codetrybe/git-and-github/blob/main/CODE_OF_CONDUCT.md) on how to interact with others.
 
-### More About this Repository
+## More About this Repository
 You can not tell how resourceful the repository is until you take a look at the directory named [docs](./docs); contained in the directory are pieces of writing that will teach you things about [Password Authentication](./docs/how-to-handle-pat-crecentials.md), [git configuration](./docs/how-to-clone.md) and more...

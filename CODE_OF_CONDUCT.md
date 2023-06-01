@@ -34,7 +34,7 @@ This Code of Conduct applies to all members of the CodeTrybe community, both onl
 
 ## Reporting
 
-If you witness or experience any behavior that violates this Code of Conduct, please report it by contacting the CodeTrybe community team at {your_email}. All complaints will be reviewed and investigated, and we will take appropriate action to address the issue. We are committed to maintaining confidentiality with respect to the reporter of any incident.
+If you witness or experience any behavior that violates this Code of Conduct, please report it by contacting CodeTrybe Admins. All complaints will be reviewed and investigated, and we will take appropriate action to address the issue. We are committed to maintaining confidentiality with respect to the reporter of any incident.
 
 ## Enforcement
 

@@ -6,11 +6,13 @@ format your README, if you don't know how a well formatted README is achieved, w
 
 A README is an essential part of any software project. It's the first thing people will see
 when they visit your project's repository, and it's your chance to make a good first impression.
-good README can make the difference between someone trying out your project or moving on to something else. In this article, we'll go over the qualities of a good README and why they matter.
+good README can make the difference between someone trying out your project or moving on to
+something else. In this article, we'll go over the qualities of a good README and why they matter.
 
 ## Clarity
 
-The most important quality of a good README is clarity. Your README should be easy to read and understand, even for someone who has never seen your project before. Use clear, concise language, and avoid technical jargon or acronyms that might be unfamiliar to your audience.
+The most important quality of a good README is clarity. Your README should be easy to read and
+understand, even for someone who has never seen your project before. Use clear, concise language, and avoid technical jargon or acronyms that might be unfamiliar to your audience.
 
 ## Purpose
 

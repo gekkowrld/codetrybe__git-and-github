@@ -44,6 +44,9 @@ We'll use ED25519 because of its security and speed advantages. You can read mor
 
 If the message from the above command is `No such file or directory` then we have to create a new one, if it is there then you can skip this part.
 
+**NOTE**:
+>>> If you already have an ssh key in your machine, and it is being used, don't overwrite it. Instead, give a different path in the ssh folder so as to avoid conflicts.
+
 Use the following command to generate a new SSH key
 
 ```bash

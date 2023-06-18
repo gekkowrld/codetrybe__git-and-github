@@ -4,6 +4,8 @@ This article was not written with the intention of teaching `markdown` syntax or
 format your README, if you don't know how a well formatted README is achieved, watch
 [this video](https://youtu.be/LfuY7EvxuH0) to find out how such READMEs are produced.
 
+>> If you like to read then the [github tutorial](https://guides.github.com/features/mastering-markdown/) or the [official website](https://daringfireball.net/projects/markdown/) can be of help.
+
 A README is an essential part of any software project. It's the first thing people will see
 when they visit your project's repository, and it's your chance to make a good first impression.
 good README can make the difference between someone trying out your project or moving on to

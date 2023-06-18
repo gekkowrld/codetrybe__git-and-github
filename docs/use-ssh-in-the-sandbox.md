@@ -2,9 +2,9 @@
 
 ## What is SSH
 
->> SSH (Secure Shell) is a network protocol used to securely connect and communicate with remote computers over an unsecured network. It provides a secure encrypted communication channel between two untrusted hosts over an insecure network. SSH is widely used by system administrators, developers, and power users to remotely manage and access their systems and data.  
->> SSH uses a client-server model, where the client establishes a secure connection to the server and can then send and receive data through that connection. The server typically runs an SSH daemon, which listens for incoming connections on a specific TCP/IP port. The client must have an SSH client software installed on their local computer to initiate the connection.  
->> Once the connection is established, the user can perform various tasks such as executing remote commands, transferring files, and tunneling other network protocols through the secure connection. SSH is widely considered to be a more secure alternative to traditional remote login protocols like Telnet, which transmit data in clear text over the network.
+> > SSH (Secure Shell) is a network protocol used to securely connect and communicate with remote computers over an unsecured network. It provides a secure encrypted communication channel between two untrusted hosts over an insecure network. SSH is widely used by system administrators, developers, and power users to remotely manage and access their systems and data.
+> > SSH uses a client-server model, where the client establishes a secure connection to the server and can then send and receive data through that connection. The server typically runs an SSH daemon, which listens for incoming connections on a specific TCP/IP port. The client must have an SSH client software installed on their local computer to initiate the connection.
+> > Once the connection is established, the user can perform various tasks such as executing remote commands, transferring files, and tunneling other network protocols through the secure connection. SSH is widely considered to be a more secure alternative to traditional remote login protocols like Telnet, which transmit data in clear text over the network.
 
 For our case the remote computer or server is [github.com](https://github.com/) and the client is **us**.
 
@@ -44,14 +44,18 @@ We'll use ED25519 because of its security and speed advantages. You can read mor
 
 If the message from the above command is `No such file or directory` then we have to create a new one, if it is there then you can skip this part.
 
+**NOTE**:
+
+> > > If you already have an ssh key in your machine, and it is being used, don't overwrite it. Instead, give a different path in the ssh folder so as to avoid conflicts.
+
 Use the following command to generate a new SSH key
 
 ```bash
 ssh-keygen -t ed25519 -C "Your email"
 ```
 
->> - If it prompts you for a location to save just press `Enter`  
->> - Next, it will prompt you for a password. You can choose to enter one or not, it is not mandatory
+> > - If it prompts you for a location to save just press `Enter`
+> > - Next, it will prompt you for a password. You can choose to enter one or not, it is not mandatory
 
 Now let's copy the contents of the file so that we can store them in Github. This will tell Github who we are and remove the need to reauthenticate every time we have to push our code to Github.
 

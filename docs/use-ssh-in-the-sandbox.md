@@ -46,7 +46,7 @@ If the message from the above command is `No such file or directory` then we hav
 
 **NOTE**:
 
-> > > If you already have an ssh key in your machine, and it is being used, don't overwrite it. Instead, give a different path in the ssh folder so as to avoid conflicts.
+> If you already have an ssh key in your machine, and it is being used, don't overwrite it. Instead, give a different path in the ssh folder so as to avoid conflicts.
 
 Use the following command to generate a new SSH key
 
@@ -78,9 +78,3 @@ Click on `Add SSH key` and voila! you are done!
 ### Testing your key
 
 Follow the [instructions here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection) to test if your key was successfully added to Github
-
-## What now
-
-From now on you can use the `SSH` option to clone your repos and perform your git operations.
-
-If you have any questions or concerns open an issue on Github or talk to me [@gekkowrld](https://github.com/gekkowrld)

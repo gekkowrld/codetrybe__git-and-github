@@ -46,7 +46,7 @@ If the message from the above command is `No such file or directory` then we hav
 
 **NOTE**:
 
-> If you already have an ssh key in your machine, and it is being used, don't overwrite it. Instead, give a different path in the ssh folder so as to avoid conflicts.
+> > > If you already have an ssh key in your machine, and it is being used, don't overwrite it. Instead, give a different path in the ssh folder so as to avoid conflicts.
 
 Use the following command to generate a new SSH key
 
@@ -54,8 +54,8 @@ Use the following command to generate a new SSH key
 ssh-keygen -t ed25519 -C "Your email"
 ```
 
-> > - If it prompts you for a location to save just press `Enter`
-> > - Next, it will prompt you for a password. You can choose to enter one or not, it is not mandatory
+> > -   If it prompts you for a location to save just press `Enter`
+> > -   Next, it will prompt you for a password. You can choose to enter one or not, it is not mandatory
 
 Now let's copy the contents of the file so that we can store them in Github. This will tell Github who we are and remove the need to reauthenticate every time we have to push our code to Github.
 

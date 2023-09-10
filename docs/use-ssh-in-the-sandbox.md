@@ -2,8 +2,8 @@
 
 ## What is SSH
 
-> > SSH (Secure Shell) is a network protocol used to securely connect and communicate with remote computers over an unsecured network. It provides a secure encrypted communication channel between two untrusted hosts over an insecure network. SSH is widely used by system administrators, developers, and power users to remotely manage and access their systems and data.  
-> > SSH uses a client-server model, where the client establishes a secure connection to the server and can then send and receive data through that connection. The server typically runs an SSH daemon, which listens for incoming connections on a specific TCP/IP port. The client must have an SSH client software installed on their local computer to initiate the connection.  
+> > SSH (Secure Shell) is a network protocol used to securely connect and communicate with remote computers over an unsecured network. It provides a secure encrypted communication channel between two untrusted hosts over an insecure network. SSH is widely used by system administrators, developers, and power users to remotely manage and access their systems and data.
+> > SSH uses a client-server model, where the client establishes a secure connection to the server and can then send and receive data through that connection. The server typically runs an SSH daemon, which listens for incoming connections on a specific TCP/IP port. The client must have an SSH client software installed on their local computer to initiate the connection.
 > > Once the connection is established, the user can perform various tasks such as executing remote commands, transferring files, and tunneling other network protocols through the secure connection. SSH is widely considered to be a more secure alternative to traditional remote login protocols like Telnet, which transmit data in clear text over the network.
 
 For our case the remote computer or server is [github.com](https://github.com/) and the client is **us**.

@@ -1,6 +1,6 @@
 # Git and Github
 
-This is a repository that has the resource files of Git and Github. It is meant for students in ALX SWE course who have access to a `sandbox`. But this can also work if you have a linux machine. Most of the commands are x86_64 architecture Debian/Ubuntu based. But any other *nix system can do it. If you are on Windows, you can use `Git Bash` to follow along.
+This is a repository that has the resource files of Git and Github. It is meant for students in ALX SWE course who have access to a `sandbox`. But this can also work if you have a linux machine. Most of the commands are x86_64 architecture Debian/Ubuntu based. But any other \*nix system can do it. If you are on Windows, you can use `Git Bash` to follow along.
 
 Feel free to contribute to the repository. If you have any issue, suggestion or concern open an issue.
 
